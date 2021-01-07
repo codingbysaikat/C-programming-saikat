@@ -1,0 +1,101 @@
+*{
+	padding: 0;
+	margin: 0;
+	
+}
+
+.menu-bar{
+	background-color:#00BFFF;
+	text-align: center;
+	height: 60px;
+
+
+
+}
+.menu-bar ul{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+	float: right;
+}
+.menu-bar ul li{
+	width: 100px;
+	margin: 10px;
+	padding: 6px;
+
+
+
+}
+.menu-bar ul li a{
+	text-decoration: none;
+	color: #fff;
+
+}
+.menu-bar ul li:hover{
+	background-color:#1E90FF;
+      border-radius: 3px;
+}
+#carouselExampleSlidesOnly{
+	margin:0;
+}
+#carouselExampleSlidesOnly{
+	width: 100%;
+	height: 100%
+
+}
+.carousel-caption{
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial !important;
+
+}
+.carousel-caption h5{
+	color: #fff;
+	font-size: 42px;
+}
+#about{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #555;
+}
+.btn btn-primary{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.about-content{
+	padding-top: 20px;
+	
+}
+.skrill-bar p{
+	margin-bottom: 6px;
+	font-weight: 600;
+}
+.progress-bar{
+	border-radius: 16px;
+}
+.progress{
+	border-radius: 16px;
+	margin-bottom: 20px;
+}
+#services{
+	border-color: #2F4F4F;
+	background-size: cover;
+	background-position: center;
+	color:#2F4F4F;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#services h1{
+	text-align: center;
+	color: #2F4F4F;
+	padding-bottom: 10px;
+}
+#services h1 ::after{
+	content: '';
+	background:#2F4F4F;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20 auto 50px;
+}
