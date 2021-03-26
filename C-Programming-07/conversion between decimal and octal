@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+    int number;
+    printf("Inter the decimal number=");
+    scanf("%d",&number);
+    printf("Your Octal Number=%o",number);
+    return 0;
+}
