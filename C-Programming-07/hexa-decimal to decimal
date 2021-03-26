@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+    int number;
+    printf("Inter the decimal number=");
+    scanf("%x",&number);
+    printf("Your hexa-decimal Number=%d",number);
+    return 0;
+}
