@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+    float num1, num2;
+    printf("Inter the two integer numbers: ");
+    scanf("%f %f",&num1,&num2);
+    printf("numbers: %.2f %.2f",num1,num2);
+    return 0;
+}
