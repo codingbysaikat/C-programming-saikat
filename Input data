@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    int num1, num2;
+    printf("Inter the first integer number: ");
+    scanf("%d",&num1);
+     printf("Inter the second integer number: ");
+    scanf("%d",&num2);
+    printf("Numbers are %d,%d",num1,num2);
+
+    return 0;
+}
