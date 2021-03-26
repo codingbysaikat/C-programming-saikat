@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+    int num1, num2;
+    printf("Inter the two integer numbers: ");
+    scanf("%d",&num1);
+    scanf("%d",&num2);
+    printf("numbers %d %d",num1,num2);
+    return 0;
+}
