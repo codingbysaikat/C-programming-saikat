@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+    char upp;
+    printf("Enter a any upper latter= ");
+    scanf("%c",&upp);
+    printf("Upper latter is=%c",upp+32);
+    return 0;
+}
