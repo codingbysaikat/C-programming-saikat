@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+   int num1,num2,sum;
+   float evg;
+   printf("please inter the two numbers");
+   scanf("%d %d",&num1,&num2);
+   printf("two numbers are %d %d\n",num1,num2);
+   sum=num1+num2;
+   evg=(float)sum/2;//pype casting
+   printf("avg=%.2f",evg);
+    return 0;
+}
